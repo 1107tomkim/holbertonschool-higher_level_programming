@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Returns list of methods & attributes of an object""" 
+"""Returns list of methods & attributes of an object"""
 
 
 def lookup(obj):
