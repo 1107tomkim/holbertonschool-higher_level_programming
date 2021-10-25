@@ -1,0 +1,7 @@
+import ''7-base_geometry'' module:
+
+basegeo = __import__('7-base_geometry').BaseGeometry
+
+Tests:
+	*Testing 1 2 3*
+
