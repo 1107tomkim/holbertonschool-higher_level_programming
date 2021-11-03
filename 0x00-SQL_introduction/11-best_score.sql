@@ -1,5 +1,4 @@
---write a script that updates the score of Bob
+--write a script that lists all records with a score >= 10 in the table
 
-UPDATE second_table
-SET score = 10
-WHERE name = 'Bob';
+SELECT score, name FROM second_table
+WHERE score >= 10 ORDER BY score DESC
