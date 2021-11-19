@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Displays all val in staets table where name matches arg"""
 
+
 from sys import argv
 import MySQLdb
 
