@@ -17,8 +17,8 @@ if __name__ == "__main__":
 
     cur.execute(
         "SELECT cities.name, states.name FROM cities\
-	 INNER JOIN states ON cities.state_id = states.id\
-	 ORDER BY cities.id ASC")
+        INNER JOIN states ON cities.state_id = states.id\
+        ORDER BY cities.id ASC")
     cts = cur.fetchall()
     for i, ct in enumerate(cts, start=0):
         if i != 0:
